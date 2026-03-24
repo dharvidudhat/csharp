@@ -16,8 +16,10 @@ class abc
 {
 	public void m1(out int a,out int b)
 	{
-		int x=ConvertToINt32(Console.ReadLine());
-		int y=ConvertToINt32(Console.ReadLine());
+		Console.Write("enter number of found square : ");
+		a=Convert.ToInt32(Console.ReadLine());
+		Console.Write("enter number of found cube : ");
+		b=Convert.ToInt32(Console.ReadLine());
 		a=a*a;
 		b=b*b*b;
 	}
